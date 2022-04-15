@@ -227,8 +227,8 @@ mysql> select * from Addressbook;
 | firstname | lastname | address  | city      | state      | zip      | phonenumber | email                 | bookname   | contacttype |
 +-----------+----------+----------+-----------+------------+----------+-------------+-----------------------+------------+-------------+
 | ashvini   | kano     | jabalpur | nandre    | mp         |   482001 |919691674007 | kanojia.avi@gmail.com | helloworld | friend      |
-| vivek     | mehta   | lonavala  | jaipur    | rajasthan  |   482003 |919179547325 | vivekm@gmail.com      |            |             |
-| someshwar | baghel  | abcd      | raipur    |chatttisgarh|   482004 |918602203308 | somb@gmail.com        |            |             |
+| vivek     | mehta    | lonavala | jaipur    | rajasthan  |   482003 |919179547325 | vivekm@gmail.com      |            |             |
+| someshwar | baghel   | abcd     | raipur    |chatttisgarh|   482004 |918602203308 | somb@gmail.com        |            |             |
 +-----------+----------+----------+-----------+------------+----------+-------------+-----------------------+------------+-------------+
 3 rows in set (0.00 sec)
 mysql> update Addressbook set bookname ='helloworld',contacttype='family' where lastname='mehta';
@@ -244,7 +244,7 @@ mysql> select * from Addressbook;
 | firstname | lastname | address  | city      | state      | zip      | phonenumber | email                 | bookname   | contacttype |
 +-----------+----------+----------+-----------+------------+----------+-------------+-----------------------+------------+-------------+
 | ashvini   | kano     | jabalpur | nandre    | mp         |   482001 |919691674007 | kanojia.avi@gmail.com | helloworld | friend      |
-| vivek     | mehta   | lonavala  | jaipur    | rajasthan  |   482003 |919179547325 | vivekm@gmail.com      | helloworld | family      |
-| someshwar | baghel  | abcd      | raipur    |chatttisgarh|   482004 |918602203308 | somb@gmail.com        | helloworld | family      |
+| vivek     | mehta    | lonavala | jaipur    | rajasthan  |   482003 |919179547325 | vivekm@gmail.com      | helloworld | family      |
+| someshwar | baghel   | abcd     | raipur    |chatttisgarh|   482004 |918602203308 | somb@gmail.com        | helloworld | family      |
 +-----------+----------+----------+-----------+------------+----------+-------------+-----------------------+------------+-------------+
 3 rows in set (0.00 sec)
